@@ -1,11 +1,11 @@
 # 📊 Dashboard de Costos y Proyectos
 
-Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI** se realizo con el objetivo de analizar:
+Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**, se realizo con el objetivo de analizar:
 - Movimientos de materiales en distintos proyectos.
 - Comparativa entre cantidades ingresadas y salidas.
 - Análisis de gasto de materiales por proyecto y SKU.
 - Detección de incongruencia en los materiales usados para los proyectos.
-- Tener un registro de todos los proyectos utilizados.
+- Tener un registro de todos los materiales utilizados en los diferentes proyectos.
 
 
 ---
