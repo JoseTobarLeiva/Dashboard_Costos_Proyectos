@@ -22,7 +22,7 @@ Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**,
 ---
 
 
-## Formulas DAX utilizadas
+## 🧮 Formulas DAX utilizadas
 - Para calcular el coste de cada material se tuvo que conectar dos tablas, una con el costo del material y otra con el total de movimientos por proyectos.
   
 **"precio del material = SUMX(Movimientos,Movimientos[Realizado] * RELATED(Stock[Coste]))"**
