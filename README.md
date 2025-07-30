@@ -32,8 +32,10 @@ Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**,
 **" Fecha Final por Proyecto = CALCULATE([Fecha Final],
   (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida"))) "**
 
-" Fecha Inicial por Proyecto = CALCULATE([Fecha Inicial],
-  (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida")))"
+**" Fecha Inicial por Proyecto = CALCULATE([Fecha Inicial],
+  (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida")))"**
+
+  
 ---
 
 
