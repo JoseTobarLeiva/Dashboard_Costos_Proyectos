@@ -23,11 +23,14 @@ Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**,
 
 
 ## Formulas DAX utilizadas
-- Para calcular el coste de cada material se tuvo que conectar dos tablas una con el costo del material y otra con el total de movimientos por proyectos
-"precio del material = SUMX(Movimientos,Movimientos[Realizado] * RELATED(Stock[Coste]))"
+- Para calcular el coste de cada material se tuvo que conectar dos tablas, una con el costo del material y otra con el total de movimientos por proyectos.
+  
+**"precio del material = SUMX(Movimientos,Movimientos[Realizado] * RELATED(Stock[Coste]))"**
+
 - Para hacer visible la fecha del proyecto tanto inicial como final se tuvieron que utilizar formulas
-" Fecha Final por Proyecto = CALCULATE([Fecha Final],
-  (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida"))) "
+  
+**" Fecha Final por Proyecto = CALCULATE([Fecha Final],
+  (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida"))) "**
 
 " Fecha Inicial por Proyecto = CALCULATE([Fecha Inicial],
   (FILTER(Movimientos,Movimientos[Entrada/Salida]="Salida")))"
