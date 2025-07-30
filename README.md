@@ -16,7 +16,7 @@ Este proyecto muestra un **Dashboard Interactivo** desarrollado en **Power BI**,
 - **DAX** para cálculos personalizados.
 - **Power Query** para limpieza y transformación de datos.
 - **Excel** para integración de información.
-- **Odoo* Para recopilar los datos para analizar.
+- **Odoo** Para recopilar los datos.
 
 
 ---
